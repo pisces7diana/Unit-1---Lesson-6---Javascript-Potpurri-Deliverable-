@@ -12,14 +12,14 @@ const words = {
 
 // Interact With the User
     // Start by creating a function called startMadlib that prompts a user to enter each word type and save their input to the appropriate object key.
-    // To make sure you accepted all the user's input and saved it correctly, console.log your object after all the prompts are complete. After filling out all the prompts, you should thus see something like the following in the browser console:
+    // To make sure you accepted all the user's input and saved it correctly, console.log your object after all the prompts are complete.
 
-    function startMadlib() {
-    words.number = prompt("Enter a number:");
-    words.adjective = prompt("Enter an adjective:");
-    words.pluralNoun = prompt("Enter a plural noun:");
-    words.adverb = prompt("Enter an adverb:");
-    words.anotherAdjective = prompt("Enter another adjective:");
+function startMadlib() {
+words.number = prompt("Enter a number:");
+words.adjective = prompt("Enter an adjective:");
+words.pluralNoun = prompt("Enter a plural noun:");
+words.adverb = prompt("Enter an adverb:");
+words.anotherAdjective = prompt("Enter another adjective:");
 
 console.log(words);
 
