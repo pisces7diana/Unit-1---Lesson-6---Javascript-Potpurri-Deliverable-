@@ -1,5 +1,3 @@
-// console.log("Hi!")
-
 //  Building an Object
     // First, create an object called words with the keys given below. Each key's property should be an empty string.
 const words = {
